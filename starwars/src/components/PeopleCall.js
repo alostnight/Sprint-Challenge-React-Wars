@@ -19,11 +19,11 @@ const PeopleCall = () => {
       }, [Person]);
 
 	return (
-		<ul>
+		<ol>
 			{Person.map((data, i) => (
 	            <PersonCard data={data} key={i}/>
 	        ))}
-	    </ul>
+	    </ol>
         
     )
 
